@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>intento 2</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="./img/sticky-logo.svg" alt="logo" />
+        </div>
+        <form class="search-form" action="#">
+          <div class="form-group">
+            <button class="svg" type="submit">
+              <img src="./img/icons/search-gradient.svg" class="svg" alt="" />
+            </button>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search item…"
+            />
+          </div>
+        </form>
+        <div>
+          <!-- <input type="checkbox" id="check">
+            <label for="check" class="bar-btn">
+                <i class="fa-thin fa-bars"></i>
+            </label> -->
+          <div class="btn-check">
+            <input type="checkbox" id="btn-menu" />
+            <label for="btn-menu" class="lbl-menu">
+              <span id="spn1"></span>
+              <span id="spn2"></span>
+              <span id="spn3"></span>
+            </label>
+            <ul class="nav-menu">
+              <li><a class="active" href="#">Home</a></li>
+              <li><a href="#">Explore</a>
+                <ul>
+                  <!-- li*5>a[href=#] util para duplicar li rapidamente-->
+                  <li><a href="#">Explore</a></li>
+                  <li><a href="#"></a>Profile</li>
+                  <li><a href="#"></a>Create</li>
+                  <li><a href="#"></a>Wallet</li>
+                  <li><a href="#"></a>Help Center</li>
+                </ul>
+              </li>
+              <li><a href="#">Pages</a>
+                <ul class="submenu">
+                  <li><a href="#">Author</a></li>
+                  <li><a href="#">Ranking</a></li>
+                  <li><a href="#"></a>Collection</li>
+                  <li><a href="#"></a>Item Details</li>
+                  <li><a href="#">Activity</a></li>
+                  <li><a href="#">Upload</a></li>
+                  <li><a href="#">nameProfile Edit</a></li>
+                  <li><a href="#">Login</a></li>
+                  <li><a href="#">Register</a></li>
+                  <li><a href="#">404</a></li>
+                  <li><a href="#">Coming Soon</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Blog</a>
+                <ul>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Blog Details</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-create">
+            <input type="checkbox" id="btn-create"/>
+            <label for="btn-create" class="create">
+              <h2>create</h2>
+        </div>     
+    </header>
+    
+    <form class="support-form" action="#">
+      <div class="contact-info">
+      <h3>Support Center</h3>
+      <p>Anefty are non-fungible tokens.
+         they are unique items that you can't 
+         replace with something else. for example,
+          a one of a kind trading card is an NFT – 
+        you can't just replace it with any other card.</p>
+    </div>
+      <div class="form">
+        <div><label for="yourname"></label> 
+        <input placeholder="your name" type="text" name="yourname" id="yourname">
+        <label  for="youremail"></label> 
+        <input placeholder="your email" type="text" name="youremail" id="youremail">
+      </div>             
+        <br>
+        <div><label for="message"></label> 
+        <input placeholder="write message here" type="text" name="message" id="message">
+      </div>
+        
+        <br>
+        <div><button  class="btn-send" type="submit">
+          <img src="./img/icons/mail.svg" alt="mail.svg">
+          <h3>SEND REQUEST</h3>
+        </button>
+      </div>        
+      </div>
+    </form>
+
+  </body>
+
+</html>
